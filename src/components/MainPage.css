@@ -1,0 +1,29 @@
+.product-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: baseline;
+}
+
+.card {
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card .card-title {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}

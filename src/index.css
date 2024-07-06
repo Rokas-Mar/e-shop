@@ -1,0 +1,66 @@
+body {
+  font-family: Verdana, sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit:contain;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+li {
+  color: black;
+  font-size: 15px;
+}
+
+li:hover {
+  background-color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  user-select: none;
+}
+
+a:hover {
+  background-color: hsl(0, 0%, 95%);
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+p {
+  color: black;
+  font-size: 15px;
+}
+
+p:active {
+  background-color: hsl(0, 0%, 90%);
+}
+
+button {
+  background-color: white;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 95%);
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 1px solid hsl(0, 0%, 60%);
+}
+
+input {
+  font-size: 15px;
+}
