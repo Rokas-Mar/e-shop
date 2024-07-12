@@ -9,7 +9,7 @@ interface CardProps {
 
 function Card({ product }: CardProps) {
   return (
-    <Link to="/" className="card">
+    <Link to={`/products/${product.id}`} className="card">
       <img
         className="card-image"
         src={product.images[0].replace(/\]|\[|[""]/g, "")}

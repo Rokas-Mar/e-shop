@@ -57,6 +57,11 @@
     margin: 0 clamp(0.5em, 1vw, 1em);
 }
 
+.categories-container {
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
 .categories-container li {
     padding: 1em;
 }
