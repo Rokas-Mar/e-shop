@@ -8,6 +8,7 @@ import MainPage from "./components/MainPage";
 import Header from "./components/Header";
 import Cart from "./components/Cart";
 import Footer from "./components/Footer";
+import ProductDetails from "./components/ProductDetails";
 
 function App() {
   return (
@@ -29,6 +30,14 @@ function App() {
             <>
               <Header />
               <Cart />
+            </>
+          }
+        />
+        <Route
+          path="/products/:productId"
+          element={
+            <>
+              <Header /> <ProductDetails />
             </>
           }
         />
